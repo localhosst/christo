@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script>
+    function validate(){
+        let  x = document.getElementById("ktuid").value;
+        if(/^TVE\d{2}MCA-\d{4}$/.test(x))
+        {
+            console.log("validated");
+            alert('valid KTU ID');
+            return true;
+        }
+        else {
+            alert('Invalid KTU ID');
+        }   
+    }
+</script>
 <body><center>
-    <form method="POST" action="">
+    <form method="POST" action="" onsubmit="return validate()">
         <table border=2px>
             <tr>
                 <td>KTUID</td>
-                <td><input type="text" name= "ktuid" ></td>
+                <td><input type="text" name= "ktuid" id='ktuid'></td>
             </tr>
             <tr>
                 <td>NAME</td>
