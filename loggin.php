@@ -37,7 +37,7 @@ $password=$_POST['password'];
 $q="SELECT * FROM login where username='$username' and password='$password'";
 $s=mysqli_query($conn,$q);
 if(mysqli_num_rows($s)){
-    header("location: links.php");
+    header("location: frame.php");
     // echo "login success";
 }else{
     echo "login failed";

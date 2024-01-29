@@ -47,7 +47,7 @@
             </tr>
         </table>
     </center>
-    <center><a href="login.php">LOGOUT</a></center>
+    <center><a href="loggin.php">LOGOUT</a></center>
     <br><br>
     <center><a href="links.php">PREVIOUS</a></center>
 

@@ -7,15 +7,15 @@
 </head>
 <h1>student DETAILS</h1>
 <body>
-    <a href="insert.php">add student details</a>
+    <a href="insert.php" target="home">add student details</a>
     <br><br>
-    <a href="update.php">update student details</a>
+    <a href="update.php" target="home">update student details</a>
     <br><br>
-    <a href="delete.php">delete student details</a>
+    <a href="delete.php" target="home">delete student details</a>
     <br><br>
-    <a href="loggin.php"> logindetails</a>
+    <a href="loggin.php" target="home"> logindetails</a>
     <br><br>
-    <a href="select.php"> view table</a>
+    <a href="select.php" target="home"> view table</a>
     <br><br>
 </body>
 </html>
